@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pdf-from-chinese"
+version = "0.1.0"
+description = "Translate documents from Chinese"
+authors = ["Sata9islav"]
+license = "Free"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.30.0"
+fastapi = "^0.111.0"
+paddleocr = "^2.7.3"
+paddlepaddle = "^2.6.1"
+setuptools = "^70.0.0"
+pytest = "^8.2.1"
+requests = "^2.32.3"
+pydantic = "^2.7.2"
+numpy = "^1.26.4"
+argparse = "^1.4.0"
+protobuf = "3.20.2"
+opencv-python-headless = "^4.9.0.80"
+opencv-python = "4.6.0.66"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
